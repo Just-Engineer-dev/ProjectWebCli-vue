@@ -62,6 +62,19 @@ export default {
 body {
   padding-top: 56px; /* Adjust according to navbar height */
 }
+.navbar {
+  background: url('@/assets/pattern.png') repeat; /* Используем ваше изображение */
+  animation: slide 10s alternate infinite; /* Анимация */
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 80%;
+  }
+}
 
 @media (max-width: 1200px) {
   .container {
