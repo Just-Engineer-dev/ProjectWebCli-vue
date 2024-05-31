@@ -27,6 +27,28 @@
     <div class="container" style="margin-top: 60px;">
       <router-view/>
     </div>
+    <footer class="bg-light text-center">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="text-uppercase">WebDevHub</h5>
+        <p class="mb-0">Ваш надежный источник новостей и аналитики в области веб-разработки.</p>
+      </div>
+      <div class="col-md-6">
+        <h5 class="text-uppercase">Контакты</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="mailto:info@webdevhub.com" class="text-dark">nikitanikit@gmail.com</a></li>
+          <li><a href="tel:+123456789" class="text-dark">+7 953-209-49-39</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2024 WebDevHub
+  </div>
+</footer>
+
+
   </div>
 </template>
 
@@ -40,6 +62,7 @@ export default {
 body {
   padding-top: 56px; /* Adjust according to navbar height */
 }
+
 @media (max-width: 1200px) {
   .container {
     max-width: 100%;
@@ -58,4 +81,37 @@ body {
   }
 }
 
+/* Footer styles */
+footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 </style>

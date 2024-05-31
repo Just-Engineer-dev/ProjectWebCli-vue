@@ -78,4 +78,23 @@ export default {
 .news-block router-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 1200px) {
+  .news-block {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .news-block {
+    font-size: 0.9em;
+    word-wrap: break-word;  
+  }
+}
+
+@media (max-width: 550px) {
+  .news-block {
+    font-size: 0.8em;
+    word-wrap: break-word;
+  }
+}
 </style>

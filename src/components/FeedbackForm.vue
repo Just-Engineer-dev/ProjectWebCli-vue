@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Обратная связь</h1>
+    <p>Если вы ходитет подсказать новость или связаться с нами, заполните поля ниже</p>
     <form @submit.prevent="handleSubmit">
       <div class="mb-3">
         <label for="name" class="form-label">Имя</label>

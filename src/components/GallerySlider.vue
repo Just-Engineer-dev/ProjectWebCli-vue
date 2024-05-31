@@ -1,7 +1,7 @@
 <template>
   <div class="slider-container">
     <h1>Галерея технологий</h1>
-    <p class="description">Это галерея технологий, используемых на нашем сайте. Изображения представляют различные фреймворки и библиотеки, такие как Vue.js, React и Angular.</p>
+    <p class="description">Это галерея технологий, используемых на нашем сайте. Изображения представляют различные фреймворки и библиотеки, такие как Vue.js, HTML5 и CSS3.</p>
     <div class="slider">
       <button @click="prevSlide">&lt;</button>
       <img :src="images[currentImageIndex]" alt="Gallery image" class="slider-img">
