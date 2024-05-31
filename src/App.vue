@@ -72,7 +72,7 @@ body {
     background-position: 0 0;
   }
   100% {
-    background-position: 100% 80%;
+    background-position: 100% 100%;
   }
 }
 
